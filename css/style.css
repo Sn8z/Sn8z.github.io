@@ -1,0 +1,86 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-bottom: 100px;
+  padding-top: 55px;
+  background: #eeeeee !important;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+#banner {
+  background: #AAA url("../assets/p_pic.png") no-repeat fixed center;
+  background-size: cover;
+  height: 300px;
+  padding-top: 50px !important;
+}
+
+#portfolio {
+  padding-top: 30px !important;
+  background: #AAA url("../assets/code.png") no-repeat fixed center;
+  background-size: cover;
+  height: 200px;
+}
+
+#work {
+  padding-top: 30px !important;
+  background: #AAA url("../assets/keyboard.jpeg") no-repeat fixed center;
+  background-size: cover;
+  height: 200px;
+}
+
+#print {
+  padding-top: 30px !important;
+  background: #AAA url("../assets/chess.jpeg") no-repeat fixed center;
+  background-size: cover;
+  height: 200px;
+}
+
+#skills {
+  padding-top: 30px !important;
+  background: #AAA url("../assets/skills.jpeg") no-repeat fixed center;
+  background-size: cover;
+  height: 200px;
+}
+
+#social {
+  background: #AAA url("../assets/social.jpeg") no-repeat fixed center;
+  background-size: cover;
+  height: 100px;
+  opacity:2;
+}
+
+.social-icon {
+  float: left;
+  width: auto;
+  margin-top: 20px;
+  height: 60px;
+  margin-right: 20px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.social-icon:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-filter: drop-shadow(10x 10px 10px #111);
+  filter: drop-shadow(10px 10px 10px #111);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  line-height: 100px; /* Vertically center the text there */
+  background-color: #111;
+}
