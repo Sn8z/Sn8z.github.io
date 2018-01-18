@@ -16,7 +16,7 @@ body {
 }
 
 #banner {
-  background: #AAA url("../assets/p_pic.png") no-repeat fixed center;
+  background: #AAA url("../assets/bg.jpg") no-repeat fixed center;
   background-size: cover;
   height: 300px;
   padding-top: 50px !important;
