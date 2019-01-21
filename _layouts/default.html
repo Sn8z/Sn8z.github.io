@@ -4,15 +4,17 @@
 {%- include head.html -%}
 
 <body>
-
-	{%- include header.html -%}
-
-	<main>
-		{{ content }}
-	</main>
-
-	{%- include footer.html -%}
-
+	<section class="hero is-bold is-fullheight" style="background-color:#212121;">
+		<div class="hero-head">
+			{%- include header.html -%}
+		</div>
+		<div class="hero-body">
+			{{ content }}
+		</div>
+		<div class="hero-foot">
+			{%- include footer.html -%}
+		</div>
+	</section>
 </body>
 
 </html>

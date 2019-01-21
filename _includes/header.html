@@ -1,25 +1,25 @@
 <header>
-	<nav class="navbar" role="navigation" aria-label="main navigation">
+	<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
 		<div class="container">
 			<div class="navbar-brand">
 				<a class="navbar-item" href="{{ site.url }}">
-					<img src="../assets/images/logo.png" width="auto" height="28">
+					<img src="../assets/images/sn8z-logo.svg" width="auto" height="28">
 				</a>
 
-				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNavbar">
 					<span aria-hidden="true"></span>
 					<span aria-hidden="true"></span>
 					<span aria-hidden="true"></span>
 				</a>
 			</div>
 
-			<div id="navbarBasicExample" class="navbar-menu">
+			<div id="mainNavbar" class="navbar-menu">
 				<div class="navbar-end">
 					{%- for page in site.pages -%}
 					{%- if page.title -%}
 					<a class="navbar-item" href="{{ page.url | relative_url }}"">
 					{{ page.title | escape }}
-				</a>
+					</a>
 				{%- endif -%}
 				{%- endfor -%}
 			</div>

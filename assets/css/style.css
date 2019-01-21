@@ -1,20 +1,26 @@
-html, body {
-  height: 100%;
+.section {
+	width: 100%;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
+.column.welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-header {
-	flex-shrink: 0;
+.navbar-menu {
+	background-color: transparent;
 }
 
-main {
-  flex: 1 0 auto;
+a, a.navbar-item {
+	color: #555;
 }
 
-footer {
-  flex-shrink: 0;
+a:hover, a.navbar-item:hover {
+	color: #980000;
+}
+
+.box {
+	border-radius: 2px;
 }
