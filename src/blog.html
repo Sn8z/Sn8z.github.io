@@ -1,0 +1,11 @@
+---
+layout: base.html
+title: Blog
+---
+<h2>Blog</h2>
+
+{% for post in collections.posts %}
+	<h3>{{ post.data.title }}</h3>
+	<p>{{ post.data.date | readableDate }}</p>
+	<a href="{{ post.url }}">Read more</a>
+{% endfor %}

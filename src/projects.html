@@ -1,0 +1,10 @@
+---
+layout: base.html
+title: Projects
+---
+<h2>Projects</h2>
+
+{% for project in collections.projects %}
+	<h3>{{ project.data.title }}</h3>
+	<a href="{{ project.url }}">Read more</a>
+{% endfor %}
