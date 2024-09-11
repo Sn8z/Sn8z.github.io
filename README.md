@@ -1,4 +1,2 @@
 # Sn8z.github.io
-Simple personal portfolio
-#
-Built with Jekyll and Bulma
+A simple website for my personal projects and blog
