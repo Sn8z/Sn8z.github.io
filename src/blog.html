@@ -5,7 +5,10 @@ title: Blog
 <h2>Blog</h2>
 
 {% for post in collections.posts %}
-	<h3>{{ post.data.title }}</h3>
-	<p>{{ post.data.date | readableDate }}</p>
+<div class="blog-post">
+	<p class="blog-date">{{ post.data.date | readableDate }}</p>
+	<h3 class="blog-title">{{ post.data.title }}</h3>
+	{{ post.templateContent }}
 	<a href="{{ post.url }}">Read more</a>
+</div>
 {% endfor %}
